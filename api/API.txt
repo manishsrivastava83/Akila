@@ -1,0 +1,122 @@
+1.Create Business Account
+POST 
+http://akila.com/business/v1/accounts/
+	
+	{
+		"accountInfo": {
+			"firstName" : "",
+				"lastName" : "",
+				"emailId" : "",
+				"password" : "",
+				"captcha" : "",
+				"contactInfo" : 
+				{ 
+					"contactNumber":"+1469",  "mailingAddress":"800 W" 
+				}
+		}
+	}
+
+HTTP/1.1 201 Created
+Date: Tue, 20 Aug 2013 02:51:59 GMT
+Location: http://akila.com/business/v1/accounts/
+Content-Type: application/xml
+Content-Length: nnnn
+<?xml version="1.0" encoding="UTF-8"?>
+<nms:reference xmlns:nms="urn:oma:xml:rest:netapi:nms:1">
+<accountInfo>
+<resourceURL>
+http://akila.com/business/v1/accounts/account1234
+</resourceURL>
+</accountInfo>
+</nms:reference>
+
+2.Create Group 
+Request :-
+	{
+		"groupInfo": {
+			"businessAccount": {
+					"id": "UUID"
+			},
+			"name": "richardson",
+				"description": "richardson voters",
+				"users": [
+				{ "name":"AA", "MSISDN":"+1469", "emailId":"@.com" , "mailingAddress":"800 W" },
+				{ "name":"BB", "MSISDN":"+1468", "emailId":"@.com" , "mailingAddress":"800 W" }
+				]
+		}
+	}
+Response :-
+HTTP/1.1 200 OK 
+Content-Type: application/json
+x-transaction-id: 96d58329afad050dc54f22105423b3b7
+{"failure":0,,"success":1,"responseText" : "TXT",","GroupId":"ID"}
+	
+2.Create campaign 
+Request :-
+	/api/v1/create/campaign/
+	{
+		"campaignInfo": {
+			"name": "election",
+			"sourceShortCode": "1234",
+				"description": "mayor election",
+				"catagory": "politics",
+				"businessAccount": {
+					"id": "UUID"
+				},
+				"userGroups": [{
+					"id": "richarson",
+				} {
+					"id": "plano"
+				}
+		}],
+			"compaignData": {
+				"id": "timeuuid",
+				"message-time": "2018-01-16T10:31:05-08:00",
+				"content": [{
+					"content-type": "text/plain",
+					"content-size": "8",
+					"charset": "utf-8",
+					"content-transfer-encoding": "quoted-printable",
+					"content": "Helloooo",
+				},
+				{
+					"content-type": "image/jpeg",
+					"content-size": "1204",
+					"content-transfer-encoding": "base64",
+					"href" : "http://38.96.209.252/externals/img/hotelImage.jpg",
+				},]
+			}
+	
+		"schedulingInfo": {
+			"dateRange" : {
+				"startDate" : "UTC",
+				"endDate" : "UTC",
+			}
+	
+			"dates":[ "5/10", "5/11", "5/12" ]
+	
+				"duration" : {
+	
+					"startTime" : "UTC",
+						"endTime" : "UTC",
+				}
+			"filterCriteria" : {
+				"filter1" : {
+					"days" :["Monday","Tuesday"]
+				},
+					"filter2" : {
+						"only on weekend"
+					}
+			}
+			"targetInterface" : {
+				"priority1" : "whatsapp",
+					"priority2" : "sms",
+					"priority3" :"fb"
+			}
+		}
+	}
+Response :-
+HTTP/1.1 200 OK 
+Content-Type: application/json
+x-transaction-id: 96d58329afad050dc54f22105423b3b7
+{"failure":0,,"success":1,"responseText" : "TXT",","campainId":"ID"}

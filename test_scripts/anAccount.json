@@ -1,0 +1,13 @@
+{
+	"accountInfo": {
+		"firstName" : "",
+			"lastName" : "",
+			"emailId" : "",
+			"password" : "",
+			"captcha" : "",
+			"contactInfo" :
+			{
+				"contactNumber":"+1469",  "mailingAddress":"800 W"
+			}
+	}
+}

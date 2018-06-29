@@ -1,0 +1,13 @@
+{
+	"accountInfo": {
+		"firstName" : "James",
+			"lastName" : "Cooper",
+			"emailId" : "James.cooper@gmail.com",
+			"password" : "abc123",
+			"captcha" : "",
+			"contactInfo" :
+			{
+				"contactNumber":"+14691111111",  "mailingAddress":"800 W Wilshire Blvd"
+			}
+	}
+}

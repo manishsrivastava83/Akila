@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hotelcustomercare-58ef0",
+  "private_key_id": "22423c9921062c60b0a57ae901fb0ce19225c596",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCQTGcMsxVHN9gs\nGiZtrTJ+Xm7NHMbq+0Twv8KQGR9gxCeBZ/IscMCp5gVKFAfYTGSRrId2kJ3yb6N+\nUpwIjXYDQmEOZU2oWsRnyilJ2bmiyx1ucGMQm203FngXvv2PGm1qm8aFxpKm6AxK\nnj7PQbE3HAwOkb7IeNadlxwe+1uG/VV3EXb7Yf7VMgVKNHURYahke+wMBUZ4GSVP\nzLa+M/9PO5KcrTr3Wfa9kAOKpKZuvCJdBYc8L03C8xviiKQU3fBgVZ6lUcO+h8fm\n4msoMzUZzfWpTa655ogkpRpqykOXUP7LL/NQD2PChx7VI1Cbtsok8JhDdjujCNi0\n3OSt08F1AgMBAAECggEAFR8p4mEAV1lkSihVwa4dewPloh55O4ImODtJhoA26Jot\n0jJd74VdnkDuO0atU0rzWaNwfLl0dT1EKER9VH8obBe2Tz4i3ObUYwDjhEzbcGnc\n2AKZbZ/in7KpR4iMYvsSUw2URJapdsb2raF2Pi42e4OefC93Rq7xc0XgNuTCJAMO\nw34Vy5W++RdfpBkCkAm+ahZ+FdnR1xJzAp0BGnuvXwJ5ZKjyS08CtoS9v36J0Utf\nfdVXtCoA5693qnROVP/txSN2srPs8YzVgwjzVPz8BnQVN5R0hl/eEfTkVZFjj30n\nRfOWQ+ms3Z9dOZwZegfKRH1oe1kMcpRAAUWoX5osgQKBgQDIbLQ2jNzhHXbYM8Dh\nw3W/FjTvituGuKiNR6FmnM8lSUNrBZGQe2TNAp6/OkMiuN8QEwlomksa6tN959+x\nKWYAUYxkmgfiTp8tZfADF4eksBK8TFIhhqrzUUNGN3+N1sk2F7wI+DI4W714n8EW\nLD9TmNhiYgau1rBOXPj9GpdFVQKBgQC4T4nqpQZ5vF2D1OtujmnpQcOUSTtDa4fq\nVItj/6RDA8IvPt/qvNLRQGoRXSfq4ihOKssOZMm5YJYe7bfKxpTReUHn34G3qSEt\nLJRofmUjmhxDfHsil/ZfUyEv9jAgjZ70MlKGeGwvt3r7jSwiGB2oBA6vLPF9fYXq\n/I16SdyLoQKBgQCVo+utauCjRx9rbsCNDyWDhS4Cx1b+MDLQQPH1rhBPE3M9nYvA\nJxDsrA8gUXy8mPEajEwTCFgZAcjkEVKHcJRSmpBKsGJAilj4SUq41EGXKUrjwcv0\nchqCzmJ/M4KNwRa7x17CB6VfRMejHwvH5UNmxBCS7AN3WJ2L9IiGWOsmfQKBgG/p\nzAKwZbgxik7sUHB3BRRfnFRECzoq5wKAh4sWxTTz6Usq0GgGc7QfeshEWmKjJHoi\nPd3lkR+A6GarTXhREDgJet1Ct88/YSe+8/ZnGR5/Cz5nLZWZ1D2ZioNG5348wBHj\nJH0GThrDPGfWFsA1CHzmycvQbGoYd+Jxq65ffw1BAoGBAJD7ebiyIgew3q/DLwjf\nX+pikZQfgg7G59Lw8RI3XbN7nZMXONnP9fAqzFRLl7PbFeg8ky3blwLHlFAI8QDg\nJe4eOd+P4EhMu4KJaeqnCX/pGzRaI3FxVKaFc9Ol4kSzx9AOeLuIEkacL09afpI1\nnWjwZLd6ou7O71dZvZFhQwhb\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-eadhoj@hotelcustomercare-58ef0.iam.gserviceaccount.com",
+  "client_id": "103351618727792812923",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-eadhoj%40hotelcustomercare-58ef0.iam.gserviceaccount.com"
+}

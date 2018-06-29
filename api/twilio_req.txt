@@ -1,0 +1,26 @@
+====From Pcap====
+
+POST /welcome/sms/reply/ HTTP/1.1
+Accept: */*
+Cache-Control: max-age=259200
+Content-Length: 422
+Content-Type: application/x-www-form-urlencoded
+Host: 38.96.209.252:2525
+X-Twilio-Signature: d11iWRw9KoM8jeYyKT685KdWmgE=
+User-Agent: TwilioProxy/1.1
+Connection: close
+
+ToCountry=US&ToState=TX&SmsMessageSid=SM508ff69eef75b00312a1ca2c0df37873&NumMedia=0&ToCity=FORT+WORTH&FromZip=75052&SmsSid=SM508ff69eef75b00312a1ca2c0df37873&FromState=TX&SmsStatus=received&FromCity=GRAND+PRAIRIE&Body=Hey+Manish+&FromCountry=US&To=%2B12145061189&ToZip=76102&NumSegments=1&MessageSid=SM508ff69eef75b00312a1ca2c0df37873&AccountSid=AC30069c06192e660902ed8338c41b6c72&From=%2B12142357247&ApiVersion=2010-04-01HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.7.5
+Date: Sun, 24 Jun 2018 21:29:57 GMT
+Content-type: application/json
+
+{'messageId': '123'}Received the incoming SMS from twilio.Accept: */*
+Cache-Control: max-age=259200
+Content-Length: 422
+Content-Type: application/x-www-form-urlencoded
+Host: 38.96.209.252:2525
+X-Twilio-Signature: d11iWRw9KoM8jeYyKT685KdWmgE=
+User-Agent: TwilioProxy/1.1
+Connection: close
+
